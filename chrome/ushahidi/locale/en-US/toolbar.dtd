@@ -4,11 +4,11 @@
 <!ENTITY ushahidi.toolbar.button.home.label "Home">
 <!ENTITY ushahidi.toolbar.tooltip.home "Deployment Home Page">
 
+<!ENTITY ushahidi.toolbar.button.view.label "View Reports (0 Total Reports)">
+<!ENTITY ushahidi.toolbar.tooltip.view "View Reports">
+
 <!ENTITY ushahidi.toolbar.button.submit.label "Submit a Report">
 <!ENTITY ushahidi.toolbar.tooltip.submit "Submit a Report">
-
-<!ENTITY ushahidi.toolbar.button.view.label "View Reports">
-<!ENTITY ushahidi.toolbar.tooltip.view "View Reports">
 
 <!ENTITY ushahidi.toolbar.button.alerts.label "Alerts">
 <!ENTITY ushahidi.toolbar.tooltip.alerts "Sign up for Alerts">

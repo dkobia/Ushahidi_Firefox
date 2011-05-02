@@ -25,11 +25,11 @@
 			
 			<toolbarseparator />
 			
-			<toolbarbutton id="Ushahidi-Toolbar-Submit-Button" tooltiptext="&ushahidi.toolbar.tooltip.submit;"
-				label="&ushahidi.toolbar.button.submit.label;" oncommand="UshahidiToolbar.loadPage('SUBMIT');" />
-				
 			<toolbarbutton id="Ushahidi-Toolbar-View-Button" tooltiptext="&ushahidi.toolbar.tooltip.view;"
 				label="&ushahidi.toolbar.button.view.label;" oncommand="UshahidiToolbar.loadPage('VIEW');" />
+			
+			<toolbarbutton id="Ushahidi-Toolbar-Submit-Button" tooltiptext="&ushahidi.toolbar.tooltip.submit;"
+				label="&ushahidi.toolbar.button.submit.label;" oncommand="UshahidiToolbar.loadPage('SUBMIT');" />
 
 			<toolbarbutton id="Ushahidi-Toolbar-Alerts-Button" tooltiptext="&ushahidi.toolbar.tooltip.alerts;"
 				label="&ushahidi.toolbar.button.alerts.label;" oncommand="UshahidiToolbar.loadPage('ALERTS');" />
