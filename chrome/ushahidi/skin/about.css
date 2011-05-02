@@ -1,0 +1,20 @@
+@import url("chrome://global/skin/");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#Ushahidi-About-Details {
+  color: #000000 !important;
+  padding: 0.5em !important;
+}
+
+.Ushahidi-About-Name {
+  font-size: x-large !important;
+  padding-right: 0.25em !important;
+}
+
+.Ushahidi-About-Title {
+  padding-top: 0.25em !important;
+}
+
+.Ushahidi-About-Name, .Ushahidi-About-Title {
+  font-weight: bold !important;
+}

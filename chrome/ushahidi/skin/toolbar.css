@@ -1,0 +1,18 @@
+#Ushahidi-Toolbar-Deployment-Button {
+  list-style-image: url("chrome://ushahidi/skin/images/logo_16.png");
+}
+#Ushahidi-Toolbar-Home-Button {
+  list-style-image: url("chrome://ushahidi/skin/images/toolbar/home.png");
+}
+#Ushahidi-Toolbar-Submit-Button {
+  list-style-image: url("chrome://ushahidi/skin/images/toolbar/submit_report.png");
+}
+#Ushahidi-Toolbar-View-Button {
+  list-style-image: url("chrome://ushahidi/skin/images/toolbar/view_reports.png");
+}
+#Ushahidi-Toolbar-Alerts-Button {
+  list-style-image: url("chrome://ushahidi/skin/images/toolbar/alerts.png");
+}
+#Ushahidi-Toolbar-Admin-Button {
+  list-style-image: url("chrome://ushahidi/skin/images/toolbar/admin.png");
+}

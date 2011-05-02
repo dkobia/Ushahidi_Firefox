@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://ushahidi/locale/about.dtd">
+<?xml-stylesheet href="chrome://ushahidi/skin/about.css" type="text/css"?>
+
+<dialog buttons="accept"
+	id="Ushahidi-About-Dialog"
+	title="&ushahidi.about.window.title;"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<vbox id="Ushahidi-About-Details">
+		<hbox>
+			<description class="Ushahidi-About-Name">Ushahidi Toolbar</description>
+			<description class="Ushahidi-About-Name">0.2</description>
+		</hbox>
+		<description value="&ushahidi.about.author;" class="Ushahidi-About-Title"/>
+		<description>David Kobia</description>
+		<description value="Ushahidi/CrowdMap" class="Ushahidi-About-Title"/>
+		<description>http://www.ushahidi.com</description>
+	</vbox>
+	<separator class="groove"/>
+</dialog>

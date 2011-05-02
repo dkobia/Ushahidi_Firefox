@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://ushahidi/locale/toolbar.dtd">
+<?xml-stylesheet href="chrome://ushahidi/skin/toolbar.css" type="text/css"?>
+<overlay id="Ushahidi-Toolbar-Overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script type="application/x-javascript" src="chrome://ushahidi/content/js/toolbar.js" />
+
+	<toolbox id="navigator-toolbox">
+		<toolbar id="Ushahidi-Toolbar" toolbarname="Ushahidi Toolbar" accesskey="T"
+			class="chromeclass-toolbar" context="toolbar-context-menu" 
+			hidden="false" persist="hidden">
+			
+			<toolbarbutton id="Ushahidi-Toolbar-Deployment-Button" tooltiptext="Deployment"
+				label="&ushahidi.toolbar.button.deployment.label;" type="menu">
+				<menupopup id="Ushahidi-Toolbar-Project-Popup" onpopupshowing="UshahidiToolbar.PopulateProjects();">
+					<menuitem label="&ushahidi.toolbar.button.loading.label;" />
+				</menupopup>
+			</toolbarbutton>
+			
+			<toolbarseparator />		
+			
+			<toolbarbutton id="Ushahidi-Toolbar-Home-Button" tooltiptext="&ushahidi.toolbar.tooltip.home;"
+				label="&ushahidi.toolbar.button.home.label;" oncommand="UshahidiToolbar.loadPage('HOME');" />
+			
+			<toolbarseparator />
+			
+			<toolbarbutton id="Ushahidi-Toolbar-Submit-Button" tooltiptext="&ushahidi.toolbar.tooltip.submit;"
+				label="&ushahidi.toolbar.button.submit.label;" oncommand="UshahidiToolbar.loadPage('SUBMIT');" />
+				
+			<toolbarbutton id="Ushahidi-Toolbar-View-Button" tooltiptext="&ushahidi.toolbar.tooltip.view;"
+				label="&ushahidi.toolbar.button.view.label;" oncommand="UshahidiToolbar.loadPage('VIEW');" />
+
+			<toolbarbutton id="Ushahidi-Toolbar-Alerts-Button" tooltiptext="&ushahidi.toolbar.tooltip.alerts;"
+				label="&ushahidi.toolbar.button.alerts.label;" oncommand="UshahidiToolbar.loadPage('ALERTS');" />
+
+			<toolbarbutton id="Ushahidi-Toolbar-Admin-Button" tooltiptext="&ushahidi.toolbar.tooltip.admin;"
+				label="&ushahidi.toolbar.button.admin.label;" oncommand="UshahidiToolbar.loadPage('ADMIN');" />
+			
+		</toolbar>
+	</toolbox>
+</overlay>

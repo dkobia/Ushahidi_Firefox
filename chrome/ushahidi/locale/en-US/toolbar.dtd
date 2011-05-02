@@ -1,0 +1,17 @@
+<!ENTITY ushahidi.toolbar.button.deployment.label "Select A Deployment">
+<!ENTITY ushahidi.toolbar.button.loading.label "Deployment Loading...">
+
+<!ENTITY ushahidi.toolbar.button.home.label "Home">
+<!ENTITY ushahidi.toolbar.tooltip.home "Deployment Home Page">
+
+<!ENTITY ushahidi.toolbar.button.submit.label "Submit a Report">
+<!ENTITY ushahidi.toolbar.tooltip.submit "Submit a Report">
+
+<!ENTITY ushahidi.toolbar.button.view.label "View Reports">
+<!ENTITY ushahidi.toolbar.tooltip.view "View Reports">
+
+<!ENTITY ushahidi.toolbar.button.alerts.label "Alerts">
+<!ENTITY ushahidi.toolbar.tooltip.alerts "Sign up for Alerts">
+
+<!ENTITY ushahidi.toolbar.button.admin.label "Admin">
+<!ENTITY ushahidi.toolbar.tooltip.admin "Administer this Deployment">

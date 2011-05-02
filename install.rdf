@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>david@ushahidi.com</em:id>
+		<em:version>0.2</em:version>
+		<em:type>2</em:type>
+		<em:name>Ushahidi Toolbar</em:name>
+		<em:description>Ushahidi/CrowdMap Quick Access Toolbar and Alert System</em:description>
+		<em:creator>David Kobia</em:creator>
+		<em:homepageURL>http://www.ushahidi.com</em:homepageURL>
+		<em:aboutURL>chrome://ushahidi/content/about.xul</em:aboutURL>
+		<em:optionsURL>chrome://ushahidi/content/options.xul</em:optionsURL>
+		<em:iconURL>chrome://ushahidi/skin/images/logo_16.png</em:iconURL>
+		
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>4.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>
