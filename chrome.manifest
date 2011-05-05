@@ -1,5 +1,5 @@
-content   ushahidi   chrome/ushahidi/content/ contentaccessible=yes
-skin      ushahidi   classic/1.0   chrome/ushahidi/skin/
-locale    ushahidi   en-US         chrome/ushahidi/locale/en-US/
+content   ushahidi   chrome/content/ contentaccessible=yes
+skin      ushahidi   classic/1.0   chrome/skin/
+locale    ushahidi   en-US         chrome/locale/en-US/
 
 overlay   chrome://browser/content/browser.xul chrome://ushahidi/content/toolbar.xul

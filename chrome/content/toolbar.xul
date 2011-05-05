@@ -4,6 +4,7 @@
 <overlay id="Ushahidi-Toolbar-Overlay"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	
+	<script type="application/x-javascript" src="chrome://ushahidi/content/js/date.js" />
 	<script type="application/x-javascript" src="chrome://ushahidi/content/js/toolbar.js" />
 
 	<toolbox id="navigator-toolbox">
@@ -13,7 +14,7 @@
 			
 			<toolbarbutton id="Ushahidi-Toolbar-Deployment-Button" tooltiptext="Deployment"
 				label="&ushahidi.toolbar.button.deployment.label;" type="menu">
-				<menupopup id="Ushahidi-Toolbar-Project-Popup" onpopupshowing="UshahidiToolbar.PopulateProjects();">
+				<menupopup id="Ushahidi-Toolbar-Deployment-Popup" onpopupshowing="UshahidiToolbar.PopulateDeployments();">
 					<menuitem label="&ushahidi.toolbar.button.loading.label;" />
 				</menupopup>
 			</toolbarbutton>
@@ -26,7 +27,10 @@
 			<toolbarseparator />
 			
 			<toolbarbutton id="Ushahidi-Toolbar-View-Button" tooltiptext="&ushahidi.toolbar.tooltip.view;"
-				label="&ushahidi.toolbar.button.view.label;" oncommand="UshahidiToolbar.loadPage('VIEW');" />
+				label="&ushahidi.toolbar.button.view.label;" type="menu" >
+				<menupopup id="Ushahidi-Toolbar-Reports-Popup" onpopupshowing="UshahidiToolbar.PopulateReports();">
+				</menupopup>
+			</toolbarbutton>				
 			
 			<toolbarbutton id="Ushahidi-Toolbar-Submit-Button" tooltiptext="&ushahidi.toolbar.tooltip.submit;"
 				label="&ushahidi.toolbar.button.submit.label;" oncommand="UshahidiToolbar.loadPage('SUBMIT');" />
@@ -36,6 +40,17 @@
 
 			<toolbarbutton id="Ushahidi-Toolbar-Admin-Button" tooltiptext="&ushahidi.toolbar.tooltip.admin;"
 				label="&ushahidi.toolbar.button.admin.label;" oncommand="UshahidiToolbar.loadPage('ADMIN');" />
+				
+			<toolbarspring />
+			
+			<toolbarbutton id="Ushahidi-Toolbar-Preferences-Button" tooltiptext="&ushahidi.toolbar.tooltip.options;"
+				label="&ushahidi.toolbar.button.options.label;" type="menu">
+				<menupopup id="Ushahidi-Toolbar-Preferences-Popup">
+					<menuitem label="&ushahidi.toolbar.button.options.label;" oncommand="UshahidiToolbar.showPrefsDialog();" /> 
+					<menuseparator /> 
+					<menuitem label="&ushahidi.toolbar.button.about.label;" oncommand="UshahidiToolbar.showAboutDialog();" />
+				</menupopup>
+			</toolbarbutton>
 			
 		</toolbar>
 	</toolbox>

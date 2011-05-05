@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://ushahidi/locale/prefs.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<dialog id="Ushahidi-Options-Dialog"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	buttons="accept, cancel"
+	orient="vertical"
+	ondialogaccept="Ushahidi_Options.save()"
+	onload="Ushahidi_Options.load()"
+	title="&ushahidi.prefs.window.title;"
+	width="600"
+	height="400">
+	
+	<script type="application/x-javascript" src="chrome://ushahidi/content/js/prefs.js" />
+	<tabbox flex="1">
+		<tabs>
+			<tab label="&ushahidi.prefs.tabgeneral.label;" />
+		</tabs>
+		<tabpanels flex="1">
+			<tabpanel id="Ushahidi-OptTab-General" orient="vertical">
+				<vbox flex="1">
+					<hbox>
+						<grid flex="1">
+							<columns>
+								<column />
+								<column flex="1" />
+							</columns>
+							<rows>
+								<row>
+									<label control="Ushahidi-Opt-AddEditName" value="&ushahidi.prefs.tabgeneral.deploymentname;" />
+									<textbox id="Ushahidi-Opt-AddEditName" />
+								</row>
+								<row>
+									<label control="Ushahidi-Opt-AddEditUrl" value="&ushahidi.prefs.tabgeneral.deploymenturl;" />
+									<textbox id="Ushahidi-Opt-AddEditUrl" />
+								</row>
+							</rows>
+						</grid>
+					</hbox>
+					<hbox pack="end">
+						<button label="&ushahidi.prefs.tabgeneral.add;" oncommand="Ushahidi_Options.addOrEditDeployment();" />
+					</hbox>
+					<vbox flex="1">
+						<listbox id="Ushahidi-Opt-Deployments" flex="1">
+							<listhead>
+								<listheader label="&ushahidi.prefs.tabgeneral.deploymentname;" />
+								<listheader label="&ushahidi.prefs.tabgeneral.deploymenturl;" />
+								<listheader label="&ushahidi.prefs.tabgeneral.deploymentreports;" />
+							</listhead>
+							<listcols>
+								<listcol />
+								<listcol flex="1" />
+								<listcol />
+							</listcols>
+						</listbox>
+					</vbox>
+					<hbox pack="end">
+						<button label="&ushahidi.prefs.tabgeneral.remove;" oncommand="Ushahidi_Options.removeDeployment();" />
+						<button label="&ushahidi.prefs.tabgeneral.removeall;" oncommand="Ushahidi_Options.removeAllDeployments();" />
+					</hbox>
+				</vbox>
+			</tabpanel>
+		</tabpanels>
+	</tabbox>
+</dialog>

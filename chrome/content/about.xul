@@ -9,8 +9,8 @@
 	
 	<vbox id="Ushahidi-About-Details">
 		<hbox>
-			<description class="Ushahidi-About-Name">Ushahidi Toolbar</description>
-			<description class="Ushahidi-About-Name">0.2</description>
+			<description class="Ushahidi-About-Name">Ushahidi for Firefox</description>
+			<description class="Ushahidi-About-Name">0.5</description>
 		</hbox>
 		<description value="&ushahidi.about.author;" class="Ushahidi-About-Title"/>
 		<description>David Kobia</description>

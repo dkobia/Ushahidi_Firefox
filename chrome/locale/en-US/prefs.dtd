@@ -1,0 +1,8 @@
+<!ENTITY ushahidi.prefs.window.title "Ushahidi Options">
+<!ENTITY ushahidi.prefs.tabgeneral.label "General Options">
+<!ENTITY ushahidi.prefs.tabgeneral.deploymentname "Deployment">
+<!ENTITY ushahidi.prefs.tabgeneral.deploymenturl "Deployment URL">
+<!ENTITY ushahidi.prefs.tabgeneral.deploymentreports "Reports">
+<!ENTITY ushahidi.prefs.tabgeneral.add "Add">
+<!ENTITY ushahidi.prefs.tabgeneral.remove "Remove">
+<!ENTITY ushahidi.prefs.tabgeneral.removeall "Remove all">

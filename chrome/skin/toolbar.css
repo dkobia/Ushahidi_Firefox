@@ -16,3 +16,16 @@
 #Ushahidi-Toolbar-Admin-Button {
   list-style-image: url("chrome://ushahidi/skin/images/toolbar/admin.png");
 }
+#Ushahidi-Toolbar-Preferences-Button {
+  list-style-image: url("chrome://ushahidi/skin/images/toolbar/prefs.png");
+}
+.Ushahidi-Toolbar-Reports-Item,
+.Ushahidi-Toolbar-Reports-Item-Verified{
+	font-size:11px;
+	-moz-binding: url("chrome://global/content/bindings/menu.xml#menuitem-iconic");
+	list-style-image: url("chrome://ushahidi/skin/images/toolbar/unverified.png");
+	-moz-image-region: rect(0px 16px 16px 0px);
+}
+.Ushahidi-Toolbar-Reports-Item-Verified{
+	list-style-image: url("chrome://ushahidi/skin/images/toolbar/verified.png");
+}
